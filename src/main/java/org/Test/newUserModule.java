@@ -1,5 +1,7 @@
 package org.Test;
 
+import org.Test.Implemetations.profilePageLogin;
+import org.Test.Interfaces.profilePageLoginActions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

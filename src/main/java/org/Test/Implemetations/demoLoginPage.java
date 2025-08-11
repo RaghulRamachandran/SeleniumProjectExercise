@@ -1,5 +1,6 @@
-package org.Test;
+package org.Test.Implemetations;
 
+import org.Test.Interfaces.demoQaLoginPageActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -35,5 +36,6 @@ public class demoLoginPage implements demoQaLoginPageActions {
         userName(userName);
         password(password);
         clickLoginButton();
+
     }
 }

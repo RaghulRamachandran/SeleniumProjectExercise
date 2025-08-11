@@ -1,4 +1,4 @@
-package org.Test;
+package org.Test.Interfaces;
 
 public interface profilePageLoginActions {
     void clickNewUserButton();

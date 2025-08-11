@@ -1,5 +1,6 @@
-package org.Test;
+package org.Test.Implemetations;
 
+import org.Test.Interfaces.profilePageLoginActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
