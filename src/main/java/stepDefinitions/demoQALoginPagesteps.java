@@ -22,7 +22,7 @@ public class demoQALoginPagesteps {
     private WebDriver driver;
     private demoLoginPage loginPage;
 
-    @Before
+
     public void setup() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -32,7 +32,7 @@ public class demoQALoginPagesteps {
         loginPage = new demoLoginPage(driver);
     }
 
-    @After
+
     public void tearDown() {
         driver.quit();
     }

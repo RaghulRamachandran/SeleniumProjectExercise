@@ -17,6 +17,7 @@ public class PracticeFormImplementations {
     }
 
     public void Url() {
+
         driver.get("https://demoqa.com/automation-practice-form");
     }
 
@@ -41,19 +42,19 @@ public class PracticeFormImplementations {
         driver.findElement(By.id("userNumber")).sendKeys(mobile);
     }
 
-    public void DOB(String day, String month, String year) {
-        driver.findElement(By.id("dateOfBirthInput")).click();
+        public void DOB(String day, String month, String year) {
+            driver.findElement(By.id("dateOfBirthInput")).click();
 
-        Select monthSelect = new Select(driver.findElement(By.className("react-datepicker__month-select")));
-        monthSelect.selectByVisibleText(month);
+            Select monthSelect = new Select(driver.findElement(By.className("react-datepicker__month-select")));
+            monthSelect.selectByVisibleText(month);
 
-        Select yearSelect = new Select(driver.findElement(By.className("react-datepicker__year-select")));
-        yearSelect.selectByVisibleText(year);
+            Select yearSelect = new Select(driver.findElement(By.className("react-datepicker__year-select")));
+            yearSelect.selectByVisibleText(year);
 
-        String dayFormatted = String.valueOf(Integer.parseInt(day)); // removes leading zero if present
-        String dayXpath = "//div[contains(@class,'react-datepicker__day') and not(contains(@class,'outside-month')) and text()='" + dayFormatted + "']";
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dayXpath))).click();
-    }
+            String dayFormatted = String.valueOf(Integer.parseInt(day));
+            String dayXpath = "//div[contains(@class,'react-datepicker__day') and not(contains(@class,'outside-month')) and text()='" + dayFormatted + "']";
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dayXpath))).click();
+        }
 
 
 

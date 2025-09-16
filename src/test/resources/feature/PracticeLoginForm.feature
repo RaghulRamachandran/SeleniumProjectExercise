@@ -18,10 +18,10 @@ Feature: Practice Form Submission
 
     @Test1
     Examples:
-      | firstname | lastname | email            | gender | mobile     | day | month  | year | subjects | hobbies | picture                                                                 | address         | state | city  |
-      | John      | Doe      | john@example.com | Male   | 9876543210 | 02  | August | 1998 | Maths    | Sports  | C:\Users\rai24\OneDrive - Sky\Pictures\Screenshots\Screenshot (1).png | 123 Street Name | NCR   | Delhi |
+      | firstname    | lastname  | email            | gender | mobile     | day | month  | year | subjects | hobbies | picture                                                               | address         | state | city  |
+      | Ramachandran | Annamalai | some@example.com | Male   | 9876543210 | 02  | August | 1998 | Maths    | Sports  | C:\Users\rai24\OneDrive - Sky\Pictures\Screenshots\Screenshot (1).png | 123 Street Name | NCR   | Delhi |
 
     @Test2
     Examples:
-      | firstname | lastname | email            | gender | mobile     | day | month  | year | subjects | hobbies | picture                                                                 | address         | state | city  |
-      | Alice     | Smith    | alice@example.com  | Female | 9876543211 | 15  | June    | 2000 | English  | Reading | C:\Users\rai24\OneDrive - Sky\Pictures\Screenshots\Screenshot (2).png  | 456 Another Road | Haryana | Karnal|
+      | firstname | lastname | email             | gender | mobile     | day | month | year | subjects | hobbies | picture                                                               | address          | state   | city   |
+      | Alexa     | S        | Alexa@example.com | Female | 9876543211 | 15  | June  | 2000 | English  | Reading | C:\Users\rai24\OneDrive - Sky\Pictures\Screenshots\Screenshot (2).png | 456 Another Road | Haryana | Karnal |
